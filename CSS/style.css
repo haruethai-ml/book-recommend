@@ -1,0 +1,33 @@
+body{
+  background-color: #b4c1c7;
+  background-image: url("../bg-square2.jpg");
+  background-repeat: no-repeat;
+}
+
+h3 {
+  font-family: 'Tilt Warp', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1000;
+  font-style: normal;
+  font-variation-settings: "XROT" 0, "YROT" 2;
+}
+
+h5 {
+  font-family: 'Tilt Warp', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "XROT" 0, "YROT" 0;
+}
+
+p {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+td {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
