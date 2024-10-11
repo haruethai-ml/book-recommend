@@ -10,29 +10,41 @@
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;400&family=Tilt+Warp&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,100&family=Protest+Strike&family=Tilt+Warp:YROT@2&display=swap" rel="stylesheet">
   </head>
   <body>
+      <header>
+        <div class="logo">
+          <img src="images/magician.png" alt="Logo">
+        </div>
+        <h1>INTO THE MAGIC SHOP</h1>
+      </header>
+    <!-- Book Review Section -->
+     <section class="book-review text-center">
+      <h2>Book Review</h2>
+    </section>
+
     <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
-      <div class="container-fluid ">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#INTO THE MAGIC SHOP">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#REVIWE : INTO THE MAGIC SHOP">Review</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#DETAILS">Details</a>
-              </li>
-          </div>
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#images">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#REVIEW">Review</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#DETAILS">Details</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
-    <div class="contriner p-3 mb-2 bg-danger-subtle text-danger-emphasis">
+    <div class="contriner ">
       <br>
       <br>
     <!-- image book -->
@@ -42,7 +54,7 @@
         <div class="carousel-container">
               <div id="carouselExample" class="carousel slide">
                   <div class="carousel-inner text-center">
-                      <div class="carousel-item active">
+                      <div class="carousel-item active" id="images">
                           <img src="images/book pinky.jpg" alt="Book Pink" width="500" height="600" class="img-fluid">
                       </div>
                       <div class="carousel-item">
@@ -64,9 +76,11 @@
       <div class="row">
         <br>
         <br>
+        <br>
+        <br>
       </div>
       <div class="row text-center">
-            <h3 id="INTO THE MAGIC SHOP" >INTO THE MAGIC SHOP</h3>
+            <h3 >INTO THE MAGIC SHOP</h3>
             <h5>[ เราทุกคนล้วนมีร้านเวทมนตร์อยู่ในใจ ]</h5>
             <br>
             <br>
@@ -74,10 +88,10 @@
       <div class="row">
           <div class="col-md-3"></div> 
             <div class="col-md-6 text-center">
-              <p>เรื่องราวของ <strong>‘จิม โดตี’</strong> เด็กชายที่เติบโตในครอบครัวที่ยากจน พ่อติดเหล้า แม่เป็นโรคซึมเศร้า 
+              <pre>เรื่องราวของ <strong>‘จิม โดตี’</strong> เด็กชายที่เติบโตในครอบครัวที่ยากจน พ่อติดเหล้า แม่เป็นโรคซึมเศร้า 
                 <br>ในวันหนึ่งที่ชีวิตมืดแปดด้าน เด็กชายจิมในวัย 12 ปี เดินเข้าไปในร้านขายของมายากลแห่งหนึ่งเพื่อซึ้อปลอกนิ้วพลาสติก 
                 <br>แต่กลับได้พบกับหญิงสาวคนหนึ่งนามว่า <strong>‘รูธ’</strong> เธอได้สอนเทคนิคการทำสมาธิ การใช้พลังของจิตใจและสร้างความคิดในเชิงบวก 
-                <br>เพื่อก้าวข้ามความเจ็บปวด และดึงดูดสิ่งที่ปรารถนา ความลับนี้ทำให้จิมได้กลายมาเป็นศาสตราจารย์ด้านประสาทศัลยกรรมที่มีชื่อเสียง 
+                <br>เพื่อข้ามความเจ็บปวด และดึงดูดสิ่งที่ปรารถนา ความลับนี้ทำให้จิมได้กลายมาเป็นศาสตราจารย์ด้านประสาทศัลยกรรมที่มีชื่อเสียง 
                 <br>ผู้ก่อตั้งศูนย์เพื่อการศึกษาด้านความเมตตาและความเห็นแก่ผู้อื่น ของมหาวิทยาลัยสแตนฟอร์ด
                 <br>หนังสือที่วงบอยแบนด์จากเกาหลีใต้ <strong>BTS</strong> อ่านและใช้เป็นแรงบันดาลใจ ในการแต่งเพลง <strong>‘Magic Shop’</strong> 
                 <br>เพื่อเยียวยาและดูแลจิตใจผู้คนที่ฟัง New York Times Bestseller มีฉบับแปลไปแล้วกว่า 31 ประเทศทั่วโลก
@@ -86,53 +100,57 @@
                 <br><strong>ตอนที่ 1 </strong>สู่ร้านมายากล
                 <br><strong>ตอนที่ 2 </strong>เรื่องลึกลับของสมอง
                 <br><strong>ตอนที่ 3 </strong>ความลับของหัวใจ
-              </p>
+              </pre>
             </div>
           <div class="col-md-3"></div> 
       </div>
-      <div class="row">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+      <div class="row text-center">
+        <p>. . . . .</p>
       </div>
+        <div class="row">
+          <br>
+          <br>
+        </div>
         <div class="row text-center">
-          <h3 id="REVIWE : INTO THE MAGIC SHOP">REVIWE : INTO THE MAGIC SHOP</h3>
+          <h3 id="REVIEW">REVIEW</h3>
+          <br>
+          <br>
         </div>  
         <div class="row">
           <div class="col-md-3"></div> 
           <div class="col-md-6 text-center">
-            <p>หนังสือพัฒนาตนเองเรื่อง <strong> "Into the Magic Shop"</strong> ไม่ใช่เพียงแค่เรื่องราวที่เกี่ยวกับเวทมนตร์หรือมายากล 
+            <pre>หนังสือจิตวิทยาพัฒนาตนเองเรื่อง <strong> "Into the Magic Shop"</strong> ไม่ใช่เพียงแค่เรื่องราวที่เกี่ยวกับเวทมนตร์หรือมายากล 
               <br>แต่เป็นการเล่าถึงความเชื่อมโยงพลังงานระหว่างจิตใจ ร่างกาย และจิตวิญญาณของคน 
               <br>ซึ่งเนื้อหาหลักของหนังสือเป็นการบอกเล่าถึงวิธีผ่อนคลายความเครียดด้วยเทคนิคการทำสมาธิ การควบคุมจิตใจ 
-              <br>พร้อมกล่าวถึงระบบ การทำงานของร่างกายว่าเป็นอย่างไรในสภาวะที่เราตึงเครียด ให้ผ่อนคลาย 
-              <br> <strong>James R. Doty</strong> ใช้ภาษาในการเขียนที่เป็นกันเอง ทำให้ง่ายต่อการเข้าใจ การอ่านหนังสือเล่มนี้จึงทำให้รู้สึกเหมือนได้ออกเดินทางร่วมไปกับเขา
+              <br>รวมไปถึงระบบการทำงานของร่างกายว่าเป็นอย่างไรในสภาวะที่เราตึงเครียด ให้ผ่อนคลาย 
+              <br> <strong>James R. Doty</strong> ใช้ภาษาในการเขียนเรื่องราวที่เป็นกันเอง ทำให้ง่ายต่อการทำความเข้าใจ 
+              <br>การอ่านหนังสือเล่มนี้จึงทำให้รู้สึกเหมือนได้ออกเดินทางร่วมไปกับเขา
               <br> <strong>"Into the Magic Shop"</strong> จึงเป็นหนังสือที่ควรอ่านสำหรับทุกคนที่ต้องการสร้างแรงบันดาลใจให้เราเชื่อมั่นในตัวเอง
                <br>ไม่ว่าเราจะอยู่ในช่วงเวลาที่ยากลำบากหรือเพียงแค่ต้องการค้นพบวิธีใหม่ในการมองโลก 
-               <br>หนังสือเล่มนี้จะเป็นเครื่องมือที่ช่วยให้เราค้นพบ<strong> "เวทมนตร์"</strong> ที่ซ่อนอยู่ในตัวของเราเอง</p>
+               <br>หนังสือเล่มนี้จะเป็นเครื่องมือที่ช่วยให้เราค้นพบ<strong> "เวทมนตร์"</strong> ที่ซ่อนอยู่ในตัวของเราเอง</pre>
           </div>
           <div class="col-md-3"></div>
         </div> 
-        <div class="row">
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
+        <div class="row text-center">
+          <p>. . . . .</p>
         </div>
+          <div class="row">
+            <br>
+            <br>
+          </div>
         <div class="row">
           <div class="col-md-3"></div> 
           <div class="col-md-6 text-center">
             <h3 id="DETAILS">DETAILS</h3>
+            <br>
+            <br>
           </div>
           <div class="col-md-3"></div>
         </div>
         <div class="row">
           <div class="col-md-3"></div> 
           <div class="col-md-6 text-center">
-            <table class="table table-danger">
-              
+            <table class="table ">
               <tbody>
                 <tr>
                   <td >ISBN</td>
@@ -160,19 +178,63 @@
                 </tr>
                 <tr>
                   <td>Number of Pages</td>
-                  <td>232</td>
+                  <td>222</td>
                 </tr>
               </tbody>
             </table>
           </div>
           <div class="col-md-3"></div>
-          
+          <div class="row text-center">
+            <p>. . . . .</p>
+          </div>
+            <div class="row">
+              <br>
+              <br>
+            </div>
+          <div class="row text-center">
+            <h3>สั่งซื้อหนังสือได้ที่นี่</h3>
+            <br>
+            <br>
+            <br>
+
+          </div>
+          <div class="row">
+            <div class="col-md-4 text-center">
+              <iframe src="https://amarinbooks.com/product/into-the-magic-shop/" width="300" height="400"></iframe>
+              <br>
+             <br>
+              <a href="https://amarinbooks.com/product/into-the-magic-shop/" target="_blank">
+              <button type="button" class="btn btn-outline-danger">ชมร้านหนังสือ</button></a>
+            </div>
+            <div class="col-md-4 text-center">
+              <iframe src="https://www.naiin.com/product/detail/482105" width="300" height="400" ></iframe>
+             <br>
+             <br>
+              <a href="https://www.naiin.com/product/detail/482105" target="_blank">
+              <button type="button" class="btn btn-outline-danger">ชมร้านหนังสือ</button></a>
+            </div>
+            <div class="col-md-4 text-center">
+              <iframe src="https://m.se-ed.com/Detail/%E0%B9%80%E0%B8%A3%E0%B8%B2%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%84%E0%B8%99%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%99%E0%B8%A1%E0%B8%B5%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%A7%E0%B8%97%E0%B8%A1%E0%B8%99%E0%B8%95%E0%B8%A3%E0%B9%8C%E0%B8%AD%E0%B8%A2%E0%B8%B9%E0%B9%88%E0%B9%83%E0%B8%99%E0%B9%83%E0%B8%88/9786161830342" width="300" height="400"></iframe>
+             <br>
+             <br>
+              <a href="https://m.se-ed.com/Detail/%E0%B9%80%E0%B8%A3%E0%B8%B2%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%84%E0%B8%99%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%99%E0%B8%A1%E0%B8%B5%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%A7%E0%B8%97%E0%B8%A1%E0%B8%99%E0%B8%95%E0%B8%A3%E0%B9%8C%E0%B8%AD%E0%B8%A2%E0%B8%B9%E0%B9%88%E0%B9%83%E0%B8%99%E0%B9%83%E0%B8%88/9786161830342" target="_blank">
+              <button type="button" class="btn btn-outline-danger">ชมร้านหนังสือ</button></a>
+            </div>
+          </div>
+          <div class="row text-center">
+            <p>. . . . .</p>
+          </div>
+            <div class="row">
+              <br>
+              
+            </div>
+          <div class="row text-center">
+            <footer>
+                    <h3>contact us </h3> 
+            </footer>
+        
+          </div>   
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
-
-
-
-
-

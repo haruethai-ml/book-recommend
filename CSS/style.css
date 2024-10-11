@@ -1,7 +1,47 @@
-body{
-  background-color: #b4c1c7;
-  background-image: url("../bg-square2.jpg");
+body {
+  background-image: url('../images/pink\ sky.jpg');
   background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: 100% 100%;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.988);
+  text-align: center;
+  padding: 20px;
+}
+
+header .logo img {
+  width: 50px;
+}
+
+h1 {
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 10px 0;
+  font-size: 50px;
+  color: #630a4e;
+}
+
+section {
+  background: linear-gradient(to right, #93def5, #feffff);
+  padding: 50px;
+  text-align: left;
+  color: rgb(135, 132, 133);
+}
+
+nav {
+  background-color: #79C3E7;
+  padding: 15px 0;
+  text-align: center;/* Center text in links */
+}
+
+h2 {
+  font-family: 'Tilt Warp', sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  font-size: 38px;
 }
 
 h3 {
@@ -10,6 +50,7 @@ h3 {
   font-weight: 1000;
   font-style: normal;
   font-variation-settings: "XROT" 0, "YROT" 2;
+  color: #630a4e;
 }
 
 h5 {
@@ -20,14 +61,25 @@ h5 {
   font-variation-settings: "XROT" 0, "YROT" 0;
 }
 
-p {
+pre {
   font-family: "Kanit", sans-serif;
   font-weight: 500;
   font-style: normal;
 }
 
-td {
+table {
+  background-color: rgba(255, 255, 255, 0.408);
+  opacity: 0.6;
   font-family: "Kanit", sans-serif;
   font-weight: 500;
   font-style: normal;
 }
+
+p {
+  font-size: 72px;
+  font-weight: 600;
+}
+
+
+
+
